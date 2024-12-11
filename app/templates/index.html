@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resolution Enhancer</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>AI Resolution Enhancer</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" id="imageInput" name="image" accept="image/*" required>
+        <button type="button" onclick="uploadImage()">Upload and Enhance</button>
+    </form>
+    <h2>Enhanced Image:</h2>
+    <img id="enhancedImage" alt="Your enhanced image will appear here.">
+    <script src="/static/script.js"></script>
+</body>
+</html>
